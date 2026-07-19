@@ -258,3 +258,38 @@ hr {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .main-heading,
+  .primary-heading {
+    font-size: 5rem;
+  }
+  #our-story {
+    text-align: center;
+  }
+  #our-story .title {
+    transform: translateX(50px);
+  }
+  #our-story .line {
+    display: none;
+  }
+  .sect-content {
+    text-align: center;
+  }
+  #our-story .img-ctr .img {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .coffee-ctr .img-ctr {
+    margin-top: 5rem;
+    width: 50%;
+  }
+  .title-two {
+    margin: 0 auto;
+    /* border: 10px solid ; */
+  }
+  .title-three {
+    margin: 0 auto;
+  }
+}
